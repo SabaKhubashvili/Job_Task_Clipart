@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.swiper-button-prev-carousel{
+    background-image: url('../Assets/Icons/arrow.svg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: red;
+    width: 50px;
+    height: 50px;
+
+}
+.swiper-button-next-carousel{
+    background-image: url('../Assets/Icons/ArrowRight.svg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: red; 
+    width: 29px;
+    height: 40px;
+}
+
+@font-face {
+    font-family: "FiraGo_Regular";
+    src: url("../static/fonts/FiraGo/FiraGO-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "FiraGo_Medium";
+    src: url("../static/fonts/FiraGo/FiraGO-Medium.ttf");
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: "FiraGo_Semibold";
+    src: url("../static/fonts/FiraGo/FiraGO-SemiBold.ttf");
+    font-weight: 600;
+}
